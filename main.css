@@ -54,10 +54,10 @@
 	background: white;
 }
 
-.searchbox	{
-	box
+.searchbox .form-control {
+	width: 60%
 }
 
-.box {
-	
+.searchbox i {
+	position: absolute;
 }
