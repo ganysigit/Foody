@@ -54,10 +54,18 @@
 	background: white;
 }
 
-.searchbox .form-control {
+.search .form-control {
 	width: 60%
 }
 
-.searchbox i {
-	position: absolute;
+.search .form-control { 
+	position: relative; 
 }
+
+.search .fa-search { 
+	position: absolute;
+	top: 10px;
+	left: 198px;
+	font-size: 18px;
+	color: #999
+  }
