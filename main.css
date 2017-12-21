@@ -43,7 +43,6 @@
 }
 
 .menu {
-	float: right;
 	display: inline;
 	font-size: 14px;
 	padding-right: 40px;
@@ -54,6 +53,29 @@
 	background: white;
 }
 
+.searchex {
+	margin-bottom: 5px;
+}
+
+.searchex .searchheader {
+	padding-left: 35px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666
+}
+.searchex .fa-search {
+	position: absolute;
+	top: 4px;
+	left: 17px;
+	bottom: 5px;
+	font-size: 20px;
+	color: #999
+}
+
+.search {
+	padding-top: 10px;
+}
 .search .form-control {
 	width: 60%
 }
@@ -64,8 +86,124 @@
 
 .search .fa-search { 
 	position: absolute;
-	top: 10px;
-	left: 198px;
+	top: 52px;
+	left: 196px;
 	font-size: 18px;
 	color: #999
   }
+
+.col-md-4 .list {
+	padding-top: 30px;
+	top: 37px;
+	left: 19px;
+	font-size: 18px;
+	color: #999
+}
+
+.list {
+	padding-left: 35px;
+	padding-bottom: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.listheader {
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 3px;
+	color: #666;
+}
+.list .fa-book {
+	position: absolute;
+	top: 111px;
+	left: 20px;
+	font-size: 25px;
+	color: #666
+}
+
+.list2 .listcuisines {
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #666
+}
+
+.list2 .fa-cutlery {
+	position: absolute;
+	top: 393px;
+	left: 25px;
+	font-size: 22px;
+	color: #666
+}
+.input-group {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+ /* Customize the label (the container) */
+.container1 {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container1 input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container1:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container1 input:checked ~ .checkmark {
+  background-color: #a7ca00;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container1 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container1 .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 8px;
+  height: 13px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+} 
