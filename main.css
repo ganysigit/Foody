@@ -224,7 +224,7 @@
 }
 .footer	{
 	width: 100%;
-	padding: 69px 0 200px 0;
+	padding: 69px 0 69px 0;
 	background: #111111;
 }
 
@@ -247,6 +247,9 @@ ul li {
 	padding-bottom: 10px;
 }
 
+ul li .one:visited {
+	color: #666;
+}
 ul li .one:link {
 	color: #666;
 	text-decoration: none;
@@ -256,6 +259,9 @@ ul li .one:hover {
 	color: #999;
 }
 
+ul li .two:visited {
+	color: white;
+}
 ul li .two:link {
 	color: white;
 	text-decoration: none;
