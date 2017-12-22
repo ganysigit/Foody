@@ -244,16 +244,23 @@
 ul li {
 	list-style: none;
 	color: #1f1f1f;
+	padding-bottom: 10px;
 }
 
 ul li .one:link {
-	color: #252525;
-}
-
-ul li .one:visited {
-	color: blue;
+	color: #666;
+	text-decoration: none;
 }
 
 ul li .one:hover {
-	color: #666;
+	color: #999;
+}
+
+ul li .two:link {
+	color: white;
+	text-decoration: none;
+}
+
+ul li .two:hover {
+	font-weight: bold;
 }
