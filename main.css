@@ -28,7 +28,6 @@
 
 .container .ket {
 	font-size: 16px;
-
 }
 .nav2 {
 	width: 100%;
@@ -48,15 +47,57 @@
 }
 .menu-list {
 	float: right;
-	padding: 0 20px 0 0;
+	padding: 0 100px 0 0;
+	font-size: 14px;
 }
 
-.menu {
+ul.menu-list li {
 	display: inline;
+}
+.menu {
 	font-size: 14px;
 	padding-right: 40px;
+	color: white;
+	letter-spacing: 1px;
 }
 
+li a.menu:link {
+	color: white;
+	text-decoration: none;
+}
+
+li a.menu:hover {
+	color: lightgrey;
+	text-decoration: none;
+}
+
+li a.menu-spc:visited {
+	color: white;
+	text-decoration: none;
+}
+
+li a.menu-spc:link {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+li a.menu-spc:hover {
+	color: lightgrey;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.menu-list .menu-spc {
+	font-size: 14px;
+	padding-right: 40px;
+	padding: 10px 20px 10px 20px;
+	border: 0px solid white;
+	border-radius: 5px;
+	background: #b1cc33;
+	color: white;
+	letter-spacing: 1px;
+}
 .outer-content-wrapper {
 	padding-bottom: 40px;
 }
@@ -113,6 +154,12 @@
 	color: #999
 }
 
+.col-md-8 .content {
+	background-color: lightgrey;
+    width: 78%;
+    padding: 40px;
+    margin: 25px;
+}
 .list {
 	padding-left: 40px;
 	padding-bottom: 7px;
@@ -250,6 +297,7 @@ ul li {
 ul li .one:visited {
 	color: #666;
 }
+
 ul li .one:link {
 	color: #666;
 	text-decoration: none;
@@ -262,6 +310,7 @@ ul li .one:hover {
 ul li .two:visited {
 	color: white;
 }
+
 ul li .two:link {
 	color: white;
 	text-decoration: none;
