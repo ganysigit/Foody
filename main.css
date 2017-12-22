@@ -29,6 +29,7 @@
 .container .ket {
 	font-size: 16px;
 }
+
 .nav2 {
 	width: 100%;
 	padding: 24px 0 24px 0;
@@ -36,7 +37,7 @@
 }
 
 .nav2  {
-	border: 1px solid #999;
+	border: 1px solid rgb(226, 217, 217);
 	border-radius: 2px;
 
 }
@@ -54,6 +55,7 @@
 ul.menu-list li {
 	display: inline;
 }
+
 .menu {
 	font-size: 14px;
 	padding-right: 40px;
@@ -154,12 +156,13 @@ li a.menu-spc:hover {
 	color: #999
 }
 
-.col-md-8 .content {
-	background-color: lightgrey;
-    width: 78%;
-    padding: 40px;
+.col-md-8 .content .post {
+	background-color: rgb(241, 232, 232);
+    width: 83%;
+    padding: 80px;
     margin: 25px;
 }
+
 .list {
 	padding-left: 40px;
 	padding-bottom: 7px;
@@ -175,6 +178,7 @@ li a.menu-spc:hover {
 	padding-top: 3px;
 	color: #666;
 }
+
 .list .fa-list {
 	position: absolute;
 	top: 112px;
