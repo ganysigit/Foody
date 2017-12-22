@@ -36,6 +36,11 @@
 	background: #f7f7f7;
 }
 
+.nav2  {
+	border: 1px solid #999;
+	border-radius: 2px;
+
+}
 .place {
 	font-size: 16px;
 	color: #666;
@@ -55,6 +60,7 @@
 .outer-content-wrapper {
 	padding-bottom: 40px;
 }
+
 .maincontent {
 	width: 100%;
 	background: white;
@@ -108,47 +114,49 @@
 }
 
 .list {
-	padding-left: 35px;
-	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-bottom: 7px;
 	font-size: 16px;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
 
-.listheader {
+.list .listheader {
 	font-size: 16px;
 	font-weight: bold;
+	letter-spacing: 1px;
 	padding-top: 3px;
 	color: #666;
 }
-.list .fa-book {
+.list .fa-list {
 	position: absolute;
-	top: 111px;
+	top: 112px;
 	left: 20px;
-	font-size: 25px;
+	font-size: 22px;
 	color: #666
 }
 
 .list2 .listcuisines {
 	padding-left: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 13px;
 	padding-top: 20px;
 	font-size: 16px;
 	font-weight: bold;
 	margin-bottom: 10px;
+	letter-spacing: 1px;
 	color: #666
 }
 
 .list2 .fa-cutlery {
 	position: absolute;
-	top: 393px;
-	left: 25px;
+	top: 381px;
+	left: 20px;
 	font-size: 22px;
 	color: #666
 }
 .input-group {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .container1 {
@@ -158,6 +166,8 @@
   margin-bottom: 20px;
   cursor: pointer;
   font-size: 14px;
+  font-weight: bold;
+  color: #666;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -214,6 +224,36 @@
 }
 .footer	{
 	width: 100%;
-	padding: 200px 0 200px 0;
-	background: #666
+	padding: 69px 0 200px 0;
+	background: #111111;
+}
+
+.credit	{
+	padding: 20px;
+	background: black;
+}
+
+.col .header1 {
+	font-size: 16px;
+	color: #9dbd00;
+	padding-left: 40px;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+}
+
+ul li {
+	list-style: none;
+	color: #1f1f1f;
+}
+
+ul li .one:link {
+	color: #252525;
+}
+
+ul li .one:visited {
+	color: blue;
+}
+
+ul li .one:hover {
+	color: #666;
 }
