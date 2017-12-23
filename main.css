@@ -18,6 +18,7 @@
 	width: 100%;
 	padding: 24px 0 24px 0;
 	background: white;
+	border: 1px #111111;
 }
 
 .home {
@@ -32,23 +33,53 @@
 
 .nav2 {
 	width: 100%;
-	padding: 24px 0 24px 0;
 	background: #f7f7f7;
+	max-height: 69px;
+	border-bottom: 1px solid rgb(230, 226, 226);
+	border-top: 1px solid rgb(230, 226, 226);
+	overflow: hidden;
 }
 
-.nav2  {
-	border: 1px solid rgb(226, 217, 217);
-	border-radius: 2px;
-
+.nav2 .container{
+	padding-bottom: 10px;
+	width: 100%;
+	padding-top: 10px;
+	overflow: hidden;
 }
-.place {
+
+h3.place {
 	font-size: 16px;
 	color: #666;
-	padding: 0 0 0 0;
+	float: left;
+	padding-top: 12px;
+}
+
+.container .place-change {
+	padding: 10px 20px 10px 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: white;
+	color: #b1cc33;
+	float: right;
+}
+
+.container .place-change:link {
+	color: #b1cc33;
+	text-decoration: none;
+}
+
+.container .place-change:visited {
+	color: #b1cc33;
+	text-decoration: none;
+}
+
+.container .place-change:hover {
+	color: #999;
+	text-decoration: none;
 }
 .menu-list {
 	float: right;
-	padding: 0 100px 0 0;
+	padding: 0 0 0 0;
 	font-size: 14px;
 }
 
@@ -100,8 +131,9 @@ li a.menu-spc:hover {
 	color: white;
 	letter-spacing: 1px;
 }
-.outer-content-wrapper {
-	padding-bottom: 40px;
+.wrapper-header1 {
+	padding-top: 40px;
+	background: white;
 }
 
 .maincontent {
@@ -158,9 +190,35 @@ li a.menu-spc:hover {
 
 .col-md-8 .content .post {
 	background-color: rgb(241, 232, 232);
-    width: 83%;
-    padding: 80px;
-    margin: 25px;
+    width: 97%;
+    padding: 0px 0 13px 20px;
+	margin: 25px;
+	overflow: hidden;
+}
+
+.post .row {
+	width: 100%;
+}
+.content .post img.post-pictures {
+	padding: 20px 20px 20px 20px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	background: white;
+}
+
+.content .post p.post-tema {
+	padding: 0px 50px 0 0;
+	font-size: 17px;
+	font-weight: bold;
+	color: #666;
+	letter-spacing: 1px;
+	float: right;
+	position: relative;
+}
+
+.col-sm-3 div.sponsored {
+	padding-top: 10;
+	background: #b1cc33;
 }
 
 .list {
@@ -171,6 +229,10 @@ li a.menu-spc:hover {
 	margin-bottom: 10px;
 }
 
+div.sponsored a.sponsored1 {
+	padding-left: 30px;
+	
+}
 .list .listheader {
 	font-size: 16px;
 	font-weight: bold;
@@ -280,7 +342,7 @@ li a.menu-spc:hover {
 }
 
 .credit	{
-	padding: 20px;
+	padding: 40px;
 	background: black;
 }
 
